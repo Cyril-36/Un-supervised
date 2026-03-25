@@ -1,0 +1,19 @@
+pca_sbert:
+  explained_variance_2d: 0.10677462071180344
+  explained_variance_50d: 0.6262573599815369
+  n_components_cluster: 50
+random_seed: 42
+svd_tfidf:
+  explained_variance_2d: 0.007316806225154994
+  explained_variance_50d: 0.10802196604213347
+  n_components_cluster: 50
+umap_sbert:
+  metric: cosine
+  min_dist: 0.0
+  n_neighbors: 10
+  silhouette_score: 0.5885214805603027
+umap_tfidf:
+  metric: cosine
+  min_dist: 0.0
+  n_neighbors: 10
+  silhouette_score: 0.32700297236442566
